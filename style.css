@@ -1,20 +1,64 @@
-html {
-  box-sizing: border-box;
-}
-*,
-::before,
-::after {
-  box-sizing: inherit;
-}
-
 body {
-  font: 16px/1.5 sans-serif;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(#020024, #090979, #00d4ff);
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
-body .foo {
-  background-color: green;
+h1 {
+  color: white;
 }
 
-.foo {
-  background-color: hotpink;
+.grid {
+  width: 600px;
+  height: 600px;
+  border: 5px solid blue;
+  background-color: silver;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.dots {
+  background-color: navy;
+  border-radius: 10px;
+}
+
+.rocket {
+  background-image: url('img/rocket.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.again {
+  display: none;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.again:hover {
+  color: navy;
+  background-color: silver;
+}
+
+.laser {
+  background-color: springgreen;
+  border-radius: 10 px;
+}
+
+.boom {
+  background-color: olivedrab;
 }
