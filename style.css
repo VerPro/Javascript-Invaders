@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font: 16px/1.5 sans-serif;
+}
+
+body .foo {
+  background-color: green;
+}
+
+.foo {
+  background-color: hotpink;
+}
