@@ -1,0 +1,5 @@
+1) dots should split into two (for two times)
+2) there should be a button for replay
+3) levels: after every cleared level there should be another with faster speed or/and more dots
+4) hits for bonus score
+5) improvement to the laser after some score 
